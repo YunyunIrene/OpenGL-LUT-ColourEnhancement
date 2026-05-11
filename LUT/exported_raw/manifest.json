@@ -1,0 +1,57 @@
+{
+  "dim": 33,
+  "num_basis": 10,
+  "lut_texture_layout": "basis,b,g,r,rgb",
+  "lut_texture_size": [
+    33,
+    33,
+    33
+  ],
+  "feature_index": "r4 * 256 + g4 * 16 + b4, where r4/g4/b4 are 0..15 nibbles",
+  "files": {
+    "basis_luts_gl": {
+      "file": "basis_luts_gl_float32.raw",
+      "dtype": "float32",
+      "shape": [
+        10,
+        33,
+        33,
+        33,
+        3
+      ],
+      "bytes": 4312440
+    },
+    "model_msb": {
+      "file": "model_msb_fp32.raw",
+      "dtype": "float32",
+      "shape": [
+        4096,
+        10,
+        1,
+        1
+      ],
+      "bytes": 163840
+    },
+    "model_lsb": {
+      "file": "model_lsb_fp32.raw",
+      "dtype": "float32",
+      "shape": [
+        4096,
+        10,
+        1,
+        1
+      ],
+      "bytes": 163840
+    },
+    "classifier": {
+      "file": "classifier_int8.raw",
+      "dtype": "int8",
+      "shape": [
+        5,
+        4096,
+        10
+      ],
+      "bytes": 204800
+    }
+  }
+}
