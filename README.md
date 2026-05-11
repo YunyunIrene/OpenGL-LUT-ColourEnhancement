@@ -1,7 +1,7 @@
 # OpenGL-LUT-ColourEnhancement
 This project is a POC to enhance the colour of a OpenGL texture with trained ICELUT
 \
-How to run:
+How to run:\
 cd OpenGL-LUT-ColourEnhancement/build$\
 cmake .. \
 make \
