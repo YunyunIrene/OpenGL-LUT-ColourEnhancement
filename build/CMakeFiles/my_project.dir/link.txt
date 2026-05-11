@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/my_project.dir/main.cpp.o CMakeFiles/my_project.dir/icelut_opengl_demo.cpp.o -o my_project  -lSM -lICE -lX11 -lXext -lGL -lGLU 3rdparty/glfw/src/libglfw3.a 3rdparty/glad/libglad.a -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl 
